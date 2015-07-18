@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07D9E3FC1B5A608D00F6BEF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D9E3FB1B5A608D00F6BEF9 /* AppDelegate.swift */; };
+		07D9E3FE1B5A608D00F6BEF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D9E3FD1B5A608D00F6BEF9 /* ViewController.swift */; };
+		07D9E4011B5A608D00F6BEF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07D9E3FF1B5A608D00F6BEF9 /* Main.storyboard */; };
+		07D9E4031B5A608D00F6BEF9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D9E4021B5A608D00F6BEF9 /* Images.xcassets */; };
+		07D9E4061B5A608D00F6BEF9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07D9E4041B5A608D00F6BEF9 /* LaunchScreen.xib */; };
+		07D9E4121B5A608D00F6BEF9 /* jakkowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D9E4111B5A608D00F6BEF9 /* jakkowTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07D9E40C1B5A608D00F6BEF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D9E3EE1B5A608D00F6BEF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07D9E3F51B5A608D00F6BEF9;
+			remoteInfo = jakkow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07D9E3F61B5A608D00F6BEF9 /* jakkow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jakkow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D9E3FA1B5A608D00F6BEF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07D9E3FB1B5A608D00F6BEF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07D9E3FD1B5A608D00F6BEF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07D9E4001B5A608D00F6BEF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07D9E4021B5A608D00F6BEF9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		07D9E4051B5A608D00F6BEF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		07D9E40B1B5A608D00F6BEF9 /* jakkowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jakkowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D9E4101B5A608D00F6BEF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07D9E4111B5A608D00F6BEF9 /* jakkowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jakkowTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07D9E3F31B5A608D00F6BEF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D9E4081B5A608D00F6BEF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07D9E3ED1B5A608D00F6BEF9 = {
+			isa = PBXGroup;
+			children = (
+				07D9E3F81B5A608D00F6BEF9 /* jakkow */,
+				07D9E40E1B5A608D00F6BEF9 /* jakkowTests */,
+				07D9E3F71B5A608D00F6BEF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07D9E3F71B5A608D00F6BEF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07D9E3F61B5A608D00F6BEF9 /* jakkow.app */,
+				07D9E40B1B5A608D00F6BEF9 /* jakkowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07D9E3F81B5A608D00F6BEF9 /* jakkow */ = {
+			isa = PBXGroup;
+			children = (
+				07D9E3FB1B5A608D00F6BEF9 /* AppDelegate.swift */,
+				07D9E3FD1B5A608D00F6BEF9 /* ViewController.swift */,
+				07D9E3FF1B5A608D00F6BEF9 /* Main.storyboard */,
+				07D9E4021B5A608D00F6BEF9 /* Images.xcassets */,
+				07D9E4041B5A608D00F6BEF9 /* LaunchScreen.xib */,
+				07D9E3F91B5A608D00F6BEF9 /* Supporting Files */,
+			);
+			path = jakkow;
+			sourceTree = "<group>";
+		};
+		07D9E3F91B5A608D00F6BEF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07D9E3FA1B5A608D00F6BEF9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07D9E40E1B5A608D00F6BEF9 /* jakkowTests */ = {
+			isa = PBXGroup;
+			children = (
+				07D9E4111B5A608D00F6BEF9 /* jakkowTests.swift */,
+				07D9E40F1B5A608D00F6BEF9 /* Supporting Files */,
+			);
+			path = jakkowTests;
+			sourceTree = "<group>";
+		};
+		07D9E40F1B5A608D00F6BEF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07D9E4101B5A608D00F6BEF9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07D9E3F51B5A608D00F6BEF9 /* jakkow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D9E4151B5A608D00F6BEF9 /* Build configuration list for PBXNativeTarget "jakkow" */;
+			buildPhases = (
+				07D9E3F21B5A608D00F6BEF9 /* Sources */,
+				07D9E3F31B5A608D00F6BEF9 /* Frameworks */,
+				07D9E3F41B5A608D00F6BEF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jakkow;
+			productName = jakkow;
+			productReference = 07D9E3F61B5A608D00F6BEF9 /* jakkow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07D9E40A1B5A608D00F6BEF9 /* jakkowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D9E4181B5A608D00F6BEF9 /* Build configuration list for PBXNativeTarget "jakkowTests" */;
+			buildPhases = (
+				07D9E4071B5A608D00F6BEF9 /* Sources */,
+				07D9E4081B5A608D00F6BEF9 /* Frameworks */,
+				07D9E4091B5A608D00F6BEF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07D9E40D1B5A608D00F6BEF9 /* PBXTargetDependency */,
+			);
+			name = jakkowTests;
+			productName = jakkowTests;
+			productReference = 07D9E40B1B5A608D00F6BEF9 /* jakkowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07D9E3EE1B5A608D00F6BEF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Appcamp;
+				TargetAttributes = {
+					07D9E3F51B5A608D00F6BEF9 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					07D9E40A1B5A608D00F6BEF9 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 07D9E3F51B5A608D00F6BEF9;
+					};
+				};
+			};
+			buildConfigurationList = 07D9E3F11B5A608D00F6BEF9 /* Build configuration list for PBXProject "jakkow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07D9E3ED1B5A608D00F6BEF9;
+			productRefGroup = 07D9E3F71B5A608D00F6BEF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07D9E3F51B5A608D00F6BEF9 /* jakkow */,
+				07D9E40A1B5A608D00F6BEF9 /* jakkowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07D9E3F41B5A608D00F6BEF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D9E4011B5A608D00F6BEF9 /* Main.storyboard in Resources */,
+				07D9E4061B5A608D00F6BEF9 /* LaunchScreen.xib in Resources */,
+				07D9E4031B5A608D00F6BEF9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D9E4091B5A608D00F6BEF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07D9E3F21B5A608D00F6BEF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D9E3FE1B5A608D00F6BEF9 /* ViewController.swift in Sources */,
+				07D9E3FC1B5A608D00F6BEF9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D9E4071B5A608D00F6BEF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D9E4121B5A608D00F6BEF9 /* jakkowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07D9E40D1B5A608D00F6BEF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07D9E3F51B5A608D00F6BEF9 /* jakkow */;
+			targetProxy = 07D9E40C1B5A608D00F6BEF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07D9E3FF1B5A608D00F6BEF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07D9E4001B5A608D00F6BEF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07D9E4041B5A608D00F6BEF9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07D9E4051B5A608D00F6BEF9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07D9E4131B5A608D00F6BEF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07D9E4141B5A608D00F6BEF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07D9E4161B5A608D00F6BEF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = jakkow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07D9E4171B5A608D00F6BEF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = jakkow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		07D9E4191B5A608D00F6BEF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = jakkowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jakkow.app/jakkow";
+			};
+			name = Debug;
+		};
+		07D9E41A1B5A608D00F6BEF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = jakkowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jakkow.app/jakkow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07D9E3F11B5A608D00F6BEF9 /* Build configuration list for PBXProject "jakkow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D9E4131B5A608D00F6BEF9 /* Debug */,
+				07D9E4141B5A608D00F6BEF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07D9E4151B5A608D00F6BEF9 /* Build configuration list for PBXNativeTarget "jakkow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D9E4161B5A608D00F6BEF9 /* Debug */,
+				07D9E4171B5A608D00F6BEF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07D9E4181B5A608D00F6BEF9 /* Build configuration list for PBXNativeTarget "jakkowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D9E4191B5A608D00F6BEF9 /* Debug */,
+				07D9E41A1B5A608D00F6BEF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07D9E3EE1B5A608D00F6BEF9 /* Project object */;
+}
