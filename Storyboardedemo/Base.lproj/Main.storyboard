@@ -5,7 +5,7 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--to do list-->
+        <!--2 do list-->
         <scene sceneID="CzM-02-QRh">
             <objects>
                 <tableViewController id="CNU-BM-9Bz" sceneMemberID="viewController">
@@ -75,7 +75,7 @@
                             <outlet property="delegate" destination="CNU-BM-9Bz" id="GQw-s6-Vcp"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="to do list" id="nXa-Yl-v5P"/>
+                    <navigationItem key="navigationItem" title="2 do list" id="nXa-Yl-v5P"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zd0-Q1-MEq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
